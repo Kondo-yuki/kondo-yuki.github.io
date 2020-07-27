@@ -1,75 +1,41 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gallery</title>
-    <link rel="stylesheet" href="10_kadai.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
-    <!-- https://lokeshdhakar.com/projects/lightbox2/ -->
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>portpholio</title>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portphorio.css">
 </head>
 <body>
     <header class="global-nav">
-        <h1>-gallery-</h1>
+        <h1>portpholio</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#sec1">プロフィール</a></li>
+                <li><a href="#sec2">作品１</a></li>
+                <li><a href="#sec3">作品２</a></li>
+                <li><a href="#sec4">作品３</a></li>
+                <li><a href="#sec5">Menu5</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <div id="gallery">
-        <dl>
-            <dt>green</dt>
-                <a href="yama.jpg" data-lightbox="group" data-title="森"><img src="yama.jpg"　width="300"></a>
-                <dd class="comment">森</dd>
-        </dl>
-
-        <dl>
-            <dt>buranko</dt>
-                <a href="buranko.jpg" data-lightbox="group" data-title="遊具"><img src="buranko.jpg"　width="300"></a>
-                <dd class="comment">遊具</dd>
-        </dl>
-
-        <dl>
-            <dt>evening</dt>
-                <a href="evening.jpg" data-lightbox="group" data-title="夕焼け"><img src="evening.jpg"　width="300"></a>
-                <dd class="comment">夕焼け</dd>
-        </dl>
-
-        <dl>
-            <dt>hanabi</dt>
-                <a href="hanabi.jpg" data-lightbox="group" data-title="夏祭り"><img src="hanabi.jpg"　width="300"></a>
-                <dd class="comment">夏祭り</dd>
-        </dl>
-
-        <dl>
-            <dt>river</dt>
-                <a href="river.jpg" data-lightbox="group" data-title="川"><img src="river.jpg"　width="300"></a>
-                <dd class="comment">川</dd>
-        </dl>
-
-        <dl>
-            <dt>snow</dt>
-                <a href="snow.jpg" data-lightbox="group" data-title="雪景色"><img src="snow.jpg"　width="300"></a>
-                <dd class="comment">雪景色</dd>
-        </dl>
-
-        <dl>
-            <dt>tower</dt>
-                <a href="tower.jpg" data-lightbox="group" data-title="タワー"><img src="tower.jpg"　width="300"></a>
-                <dd class="comment">タワー</dd>
-        </dl>
-
-        <dl>
-            <dt>Sea</dt>
-                <a href="sea.jpg" data-lightbox="group" data-title="海"><img src="sea.jpg"　width="300"></a>
-                <dd class="comment">海</dd>
-        </dl>
-
-        <dl>
-            <dt>night</dt>
-                <a href="yakei.jpg" data-lightbox="group" data-title="夜景"><img src="yakei.jpg"　width="300"></a>
-                <dd class="comment">夜景</dd>
-        </dl>
-    </div>
+    <main>
+        <section id="sec1">
+            プロフィール
+        </section>
+        <section id="sec2">
+            作品１
+        </section>
+        <section id="sec3">
+            作品２
+        </section>
+        <section id="sec4">
+            Menu4
+        </section>
+        <section id="sec5">
+            Menu5
+        </section>
+    </main>
 </body>
 </html>
