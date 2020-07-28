@@ -8,7 +8,7 @@
     box-sizing: inherit;
 }
 :root {
-    --primary-050: #af4a96; /* サンプル */
+    --primary-050: #555455; /* サンプル */
     --secondary-050: #4facc4; /* サンプル */
     --dark-087: rgba(0,0,0,0.87);
     --dark-054: rgba(0,0,0,0.54);
