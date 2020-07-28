@@ -101,9 +101,9 @@ section:nth-child(2n + 1) {
     flex-flow: wrap;  
   }
   #gallery dl {
-    flex: 200px;    
+    flex: 500px;    
     float: left;    
-    width: 300px;   
+    width: 800px;   
     margin-right: 5px;
     margin-bottom: 1em;
     padding: 0;
