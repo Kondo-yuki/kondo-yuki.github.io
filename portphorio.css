@@ -98,6 +98,9 @@ section:nth-child(2n + 1) {
 #name dt{
     font-size: 6.0rem;
 }
+#sec1 span{
+    font-size: 10.0rem;
+}
 
 #sec3 {
     background-image: url("haikei3.jpg");
@@ -124,9 +127,20 @@ section:nth-child(2n + 1) {
     background-size: cover;
     color: red;
 }
+.profile-photo h4{
+    padding-bottom: 2rem;
+}
+.profile-text {
+    padding-top: 2rem;
+}
+.profile-text h1{
+    padding-bottom: 2rem;
+    padding-top: 6rem;
+}
+
 #gallery {
     font-family: Arial, "ＭＳ Ｐゴシック", sans-serif;
-    max-width: 1500px; 
+    max-width: 1000px; 
     margin: 0 auto;
     display: flex;    
     flex-flow: wrap;  
@@ -143,7 +157,6 @@ section:nth-child(2n + 1) {
     border:1px solid #933;
     text-align: center;  
     box-sizing: border-box;
-    align-items: center;
   }
   #gallery:after { 
     content: "";
@@ -162,13 +175,15 @@ section:nth-child(2n + 1) {
     font-weight: bold;
     text-align: center;
     color: rgb(211, 37, 66);
+    font-size: 2.0rem;
   }
   #gallery dd {
     margin: 0;
     padding: 0;
+    font-size: 1.5rem;
   }
   #gallery dd.comment {
-    height: 3em;  
+    height: 4em;  
     padding: 2px 5px;
     line-height: 1.3;
     text-align: left;
@@ -265,5 +280,4 @@ section:nth-child(2n + 1) {
       text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
     }
   }
-
 
